@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="FireFox"></parameter>
+<parameter name="URL" value="https://maven.apache.org/download.cgi"></parameter>
+  <test thread-count="5" name="testngodparametersdemo">
+  <classes>
+  <class name="JavawithTestNG.Demo5_parameters"></class>
+  </classes>
+  </test> <!-- testngodparametersdemo -->
+</suite> <!-- Suite -->
